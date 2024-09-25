@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  
+}
+.menu{
+    display: none;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+.nav a{
+    font-size: 15px;
+    color: #36536B;
+    font-weight: 700;
+}
+#btns{
+   background-color: #BA4270;
+   border-radius: 25px;
+   color: white;
+   padding: 15px 25px;
+}
+
+
+.main-info{
+  display: flex;
+  justify-content: space-around;
+    
+}
+.main-info h2{
+    margin-top: 200px;
+    font-size: 36px;
+    font-family: "DM Serif Display", serif;
+}
+.kode-item{
+    display: flex;
+    justify-content: space-around;
+}
+.kode-item h2{
+    margin-top: 150PX;
+    
+}
+.kode-item P{
+    margin-top: 180PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 460px) and (max-width: 768px) {
+    .nav{
+        justify-content: space-around;
+    }
+    #btns{
+        padding: 10px ;
+        font-size: 10px;
+     }
+    .nav ul{
+        gap: 10px;
+    }
+    .nav a{
+        font-size: 10px;
+    }
+    .logo{
+        width: 90px;
+       
+    }
+}
+@media  (max-width: 375px) {
+    .nav{
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .menu{
+        display: flex;
+    }
+    .nav ul{
+        display: none;
+    }
+}
+@media (min-width: 380px) and (max-width: 460px) {
+}
